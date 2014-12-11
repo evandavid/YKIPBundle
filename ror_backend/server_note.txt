@@ -1,0 +1,5 @@
+sudo apt-get install freetds-dev freetds-bin
+sudo apt-get install sqsh
+
+# usage:
+sqsh -S <DB_IP or name> -U <userName> -P <password>
