@@ -18,7 +18,7 @@ class Welcome extends REST_Controller {
 	 * map to /index.php/welcome/<method_name>
 	 * @see http://codeigniter.com/user_guide/general/urls.html
 	 */
-	function user_get()
+	public function user_get()
     {
         if(!$this->get('id')) {
             $this->response(NULL, 400);
@@ -31,6 +31,11 @@ class Welcome extends REST_Controller {
         } else {
             $this->response(NULL, 404);
         }
+    }
+
+    public function index()
+    {
+        echo "works";
     }
 }
 

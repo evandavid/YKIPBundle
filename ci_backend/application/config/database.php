@@ -48,7 +48,7 @@
 $active_group = 'default';
 $active_record = TRUE;
 
-$db['default']['hostname'] = '172.19.11.51';
+$db['default']['hostname'] = 'mtpc8023';
 $db['default']['username'] = 'sa';
 $db['default']['password'] = 'sa';
 $db['default']['database'] = 'YKIP_DEV';
